@@ -29,7 +29,7 @@ void Stack::pop() {
         cout<<"Stack Kosong"<<endl;
         return;;
     }
-    cout<<top->no_punggung<<"Telah Dihapus"<<endl;
+    cout<<top->nama<<" Telah Dihapus"<<endl;
     top=top->next;
 }
 
